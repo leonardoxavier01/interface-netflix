@@ -15,7 +15,7 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-/* const boxFilmes = document.querySelectorAll('.box-filmes')
+const boxFilmes = document.querySelectorAll('.box-filmes')
 const carrossel = document.querySelector('.owl-carousel')
 
 carrossel.addEventListener('mousemove', (event)=>{
@@ -29,8 +29,10 @@ carrossel.addEventListener('mousemove', (event)=>{
             return false; 
         }        
         element.parentNode.parentNode.style.zIndex = '0' 
+        event.target.parentNode.parentNode.style.overflow = 'hidden';
         console.log(element.parentNode.parentNode)
     });
 
     event.target.parentNode.parentNode.style.zIndex = '1'
-}) */
+    event.target.parentNode.parentNode.style.overflow = 'visible';
+}) 

@@ -14,7 +14,7 @@ body {
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    
+    overflow-x: hidden !important;
 }
 
 .container-header {
@@ -59,7 +59,6 @@ header nav a:hover {
     justify-content: center;
     align-items: flex-start;
     text-shadow: black 0.5em 0.9em 0.9em;
-
 }
 
 .filme-principal .descricao {
@@ -112,12 +111,12 @@ header nav a:hover {
     border-radius: 4%;
 }
 
-.item .box-filmes {
+.item {
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
 }
 
-.item .box-filmes:hover {
+.item:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
