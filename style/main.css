@@ -14,7 +14,8 @@ body {
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    overflow-x: hidden !important;
+   /*  testes bug overflow
+    /* overflow-x: hidden !important; */
 }
 
 .container-header {
@@ -23,6 +24,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding-left: 50px;
 }
 
 header .logo {
@@ -102,6 +104,7 @@ header nav a:hover {
 
 .container {
     margin-left: 20px;
+    padding-left: 50px;
 }
 
 .box-filmes {

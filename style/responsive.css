@@ -3,6 +3,8 @@
     .container-header {
         display: flex;
         flex-direction: column;
+        padding-left: 5px;
+        margin-left: 0;
     }
 
     .botao {
@@ -10,11 +12,12 @@
     }
 
     .container{
-        padding-top: 300px;
+        padding-top: 250px;
+        padding-left: 10px;
     }
     
     .filme-principal{
-        height: 800px;
+        height: 600px;
     }
     
     .filme-principal .titulo {
