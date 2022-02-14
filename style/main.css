@@ -22,18 +22,18 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    padding-right: 20px;
+    
     background-color: #0e0d0d;
     z-index: 2;
 }
 
 .header {
-    margin-left: 20px;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-left: 50px;
+    padding-left: 70px;
 }
 
 header .logo {
