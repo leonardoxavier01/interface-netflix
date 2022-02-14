@@ -18,6 +18,7 @@ body {
     /* overflow-x: hidden !important; */
 }
 
+
 .container-header {
     margin-left: 20px;
     display: flex;
@@ -122,5 +123,11 @@ header nav a:hover {
 .item:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.1);
+}
+
+.title-carousel{
+    margin-left: 20px;
+    padding: 10px 0 10px 50px;
+    font-size: 25px;
 }
 
