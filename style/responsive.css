@@ -6,7 +6,7 @@
         margin-left: 0;
     }
 
-    .botao {
+    .button-movie {
         margin-top: 5px;
     }
 
@@ -15,15 +15,15 @@
         padding-left: 10px;
     }
 
-    .filme-principal {
+    .main-movie {
         height: 600px;
     }
 
-    .filme-principal .titulo {
+    .main-movie .title {
         font-size: 50px;
     }
 
-    .filme-principal .descricao {
+    .main-movie .description {
         font-size: 15px;
     }
 
@@ -35,7 +35,7 @@
 }
 
 @media screen and (min-width:1000px) {
-    .descricao {
+    .description {
         width: 55%;
     }
 }

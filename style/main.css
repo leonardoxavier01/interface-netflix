@@ -3,6 +3,10 @@
     --preto: #141414;
 }
 
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -150,5 +154,5 @@ header nav a:hover {
 .title-carousel {
     margin-left: 20px;
     padding: 10px 0 10px 50px;
-    font-size: 25px;
+    font-size: 20px;
 }
