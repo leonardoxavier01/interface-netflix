@@ -1,3 +1,4 @@
+//carousel
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:8,
@@ -15,7 +16,22 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-const boxFilmes = document.querySelectorAll('.box-filmes')
+//sticky-header
+window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+
+//item-carousel:hover in javascript inative
+/* const boxFilmes = document.querySelectorAll('.box-filmes')
 const carrossel = document.querySelector('.owl-carousel')
 
 carrossel.addEventListener('mousemove', (event)=>{
@@ -35,17 +51,4 @@ carrossel.addEventListener('mousemove', (event)=>{
 
     event.target.parentNode.parentNode.style.zIndex = '1'
     event.target.parentNode.parentNode.style.overflow = 'visible';
-}) 
-
-window.onscroll = function() {myFunction()};
-        
-        var header = document.getElementById("myHeader");
-        var sticky = header.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        }
+})  */        
