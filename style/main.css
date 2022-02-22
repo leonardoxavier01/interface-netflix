@@ -78,7 +78,7 @@ header nav a:hover {
 .main-movie {
     font-size: 16px;
     background: url(../img/ozark-capa-main.jpg);
-    height: 650px;
+    height: 550px;
     display: flex;
     background-size: cover;
     background-repeat: no-repeat;
